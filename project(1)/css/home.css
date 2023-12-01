@@ -1,0 +1,317 @@
+.container-fluid1{
+    padding-bottom: 10px;
+}
+.card1{
+    padding-top: 5px;
+}
+.card-img-top{
+    padding-top: 1%;
+    transition: all .5s ease-in-out;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    padding-top: 1%;
+    /* overflow: hidden; */
+}
+.container-fluid2{
+    padding-top: 1%;
+}
+.card-body{
+    background-color:teal;
+}
+a{
+    color: black;
+}
+.ASSESCORIES{
+    padding-top: 1%;
+}
+.garab-black{
+    background-color: white;
+    position: relative;
+    display: block;
+    opacity: 0.5;
+}
+.garab-black1{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    bottom: 8%;
+    right: 0.5px;
+}
+.garab-black:hover .garab-black1{
+    opacity: 1;
+    pointer-events: all;
+    transition: 4s ease-in-out;
+}
+
+h1{
+    font-size: large;
+    text-align: center;
+    background-color: teal;
+}
+h2{
+    font-size: xx-large;
+    font-weight: 800;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+h2:hover{
+    font-size: large;
+    color: white;
+    font-weight: 1000;
+    text-shadow:2px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+.offcanvas-header{
+    background-color: black;
+}
+.garab-black{
+    background-color:linen;
+}
+.garab-black.img{
+    width:1005;
+}
+.ipad{
+    transition:all 4s ease-in-out;
+    overflow: hidden;
+    
+}
+.ipad:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.ipad-section .ipad{
+    overflow: hidden;
+}
+.nav-link:hover{
+    background-color:teal;
+    cursor: pointer;
+    color: white;
+
+}
+.zorar{
+    height: 100px;
+    width: 50px;
+
+}
+.demo{
+    width: 500px;
+    height:250px ;
+    background-color: blue;
+    display: none;
+}
+.navbar-brand:hover{
+background-color: teal;
+}
+.teal:hover{
+    background-color: teal;
+    padding-top: 5px;
+}
+a:hover{
+    background-color:wheat ;
+}
+.images{
+    position: relative;
+}
+.images-description{
+
+}
+.images-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 100%;
+    width:100% ;
+    height: 100%;
+    background-color:(0,0,0,1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.images-overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.images-overlay:hover > *{
+    transform: translateY(0);
+    transition: transform 0.25s;
+}
+.images-overlay:hover{
+    opacity: 1;
+}
+.imagetittle{
+    font-size: medium;
+    font-weight: bold;
+}
+.images-description{
+    font-size: 2em;
+    margin-top: 1px;
+}
+.images-description1{
+    font-size: 2em;
+    margin-top: 1px;
+    color:gray;
+    font-size: xx-large;
+    font-weight: 800;
+}
+.phone{
+    padding: 1%;
+    border: 2px solid white;
+}
+.scroll{
+    overflow: scroll;
+    background-color: azure;
+    width: 500px;
+    height:200px;
+    text-align: center;
+    font-size: x-large;
+}
+ .offcanvas-body img:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    padding-top: 10px;
+
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.scroll .linear{
+    background-image:linear-gradient(teal,white) ;
+}
+.offcanvas-body img{
+    width: 100%;
+}
+.card2{
+    height:100%;
+}
+.phone{
+    padding-top: 5px;
+}
+.lol{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.form-label{
+    color: white;
+}
+.submit{
+    text-align: center;
+}
+.mine{
+    width:100%;
+    justify-content: center;
+}
+.carousel-control-prev-icon{
+    color: teal;
+}
+.ipad{
+    overflow: hidden;
+}
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    text-align: center;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  </style>  
